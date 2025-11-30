@@ -1,4 +1,9 @@
 #![warn(clippy::all)]
 
-pub mod node;
-pub mod page;
+mod database;
+mod error;
+mod node;
+mod page;
+
+pub use database::Database;
+pub use error::{Error, Result};
