@@ -17,3 +17,7 @@ implementation in Rust. To be used as a storage engine with Accord distributed c
     * Garbage collection during node flushes.
 * WiscKey-like value separation (for >1KB values).
 * Range tombstones.
+
+## Name Ideas
+
+* CascadeDB
